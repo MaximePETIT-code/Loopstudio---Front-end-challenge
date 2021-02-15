@@ -5,8 +5,12 @@ footer{
     max-width: 1112px;
     margin: 0 auto;
     padding: 48px 0 43px 0;
+    @media screen and (max-width : 1114px){
+      padding: 0 7.68%;
+    }
 
     .info1{
+      max-width: 100%;
       display: flex;
       @media screen and (max-width : 1114px){
         flex-direction: column;
@@ -35,6 +39,8 @@ footer{
     }
 
     .info2{
+      flex-wrap: wrap;
+      max-width: 100%;
       display: flex;
 
       .menu{
@@ -46,6 +52,10 @@ footer{
 
         li{
           padding-right: 34px;
+
+          &:last-child{
+            padding-right: 0;
+          }
         }
 
         li a{
