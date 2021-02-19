@@ -2,9 +2,9 @@
 
 ![Design preview for the Loopstudios landing page coding challenge](assets/design/desktop-preview.jpg)
 
-## Hello! 👋
+## Hello world! 👋
 
-This is a front-end coding challenge offered by [Frontend Mentor](https://www.frontendmentor.io), and here is my proposal ! [Click here](https://loopstudio-eb6jhfku9.vercel.app/) to visit the site.
+This is a front-end coding challenge offered by [Frontend Mentor](https://www.frontendmentor.io), and here is my proposal ! [Click here](https://loopstudio-eb6jhfku9.vercel.app/) to visit the site 💻
 
 
 ## The challenge
