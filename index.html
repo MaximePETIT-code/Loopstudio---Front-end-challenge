@@ -34,6 +34,24 @@
               <li><a href="#">Products</a></li>
               <li><a href="#">Support</a></li>
             </ul>
+            <div class="hamburger">
+              <div id="nav-phone" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+                <div class="overlay-content">
+                  <ul class="menu-phone">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Support</a></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="menu-icon fas fa-bars" onclick="openNav()">
+              </div>
+            </div>
           </nav>
 
           <div class="titre-site">
@@ -101,7 +119,10 @@
     <footer>
       <div class="info-footer">
         <div class="info1">
-          <img class="logo" src="assets/images/logo.svg" alt="logo" />
+          <div class="logo-loopstudios">
+            <img class="logo" src="assets/images/logo.svg" alt="logo" />
+          </div>
+          
 
           <ul class="menu">
             <li><a href="#">About</a></li>
@@ -142,5 +163,6 @@
 
 
     <script src="https://kit.fontawesome.com/2f788c82ab.js" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>

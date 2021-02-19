@@ -2,25 +2,53 @@ footer{
   padding: 43px 0 47px 0;
   background-color: black;
   color: white;
+  @media screen and (max-width : 1114px){
+    padding: 95px 0 108px 0;
+  }
 
   .info-footer{
     display: flex;
     max-width: 1112px;
     margin: 0 auto;
+    @media screen and (max-width : 1114px){
+      flex-wrap: wrap;
+    }
 
     .info1{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .logo-loopstudios{
+        @media screen and (max-width : 1114px){
+          display: flex;
+          justify-content: center;
+        }
+      }
       .menu{
         margin-top: 30px;
         display: flex;
         width: 100%;
-        align-items: center;
-        justify-content: flex-end;
 
         font-family: 'Alata';
         color: white;
+        @media screen and (max-width : 1114px){
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-items: center;
+          margin-bottom: 80px;
+        }
 
         li{
           padding-right: 34px;
+          @media screen and (max-width : 1114px){
+            padding-right: 0;
+            padding-bottom: 50px;
+            &:last-child{
+              padding-bottom: 0;
+            }
+          }
+          
         }
 
         a{
@@ -37,11 +65,14 @@ footer{
     .info2{
       width: 100%;
 
-
       .rs{
         display: flex;
         justify-content: flex-end;
         font-size: 1.5rem;
+        @media screen and (max-width : 1114px){
+          justify-content: center;
+          font-size: 2rem;
+        }
 
         .liste-reseaux-sociaux{
           display: flex;
@@ -61,6 +92,10 @@ footer{
         justify-content: flex-end;
         height: 30%;
         align-items: flex-end;
+        @media screen and (max-width : 1114px){
+          justify-content: center;
+          
+        }
       }
     }
   }
