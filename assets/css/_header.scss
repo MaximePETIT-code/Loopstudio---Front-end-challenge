@@ -4,6 +4,9 @@
   background: url(../images/desktop/image-hero.jpg) ;
   background-size: cover;
   height: 40.625rem;
+  @media screen and (max-width : 1114px){
+    background-position: center;
+  }
 
   .hero-contenu{
     background-color: rgba(0,0,0, 0.5);
@@ -39,8 +42,12 @@
           padding-left: 34px;
         }
 
-        li a{
+        a{
           color: white;
+
+          &:hover{
+            border-bottom: 2px white solid;
+          }
           
         }
       }
@@ -50,8 +57,10 @@
       max-width: 660px;
       border:white 3px solid;
       padding: 45px 0px 45px 45px;
-      @media screen and (max-width : 1114px){
-        width: 100%;
+      @media screen and (max-width : 700px){
+        padding: 25px 0 25px 25px;
+        // width: 100%;
+
       }
 
       h1{
@@ -59,7 +68,10 @@
         font-family: 'Josefin Sans', sans-serif;
         text-transform: uppercase;
         color: white;
-        @media screen and (max-width : 1114px){
+        @media screen and (max-width : 700px){
+          font-size: 3rem;
+        }
+        @media screen and (max-width : 475px){
           font-size: 2rem;
         }
       }
