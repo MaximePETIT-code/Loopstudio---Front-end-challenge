@@ -1,4 +1,4 @@
-function openNav() {
+ function openNav() {
   document.getElementById("nav-phone").style.width = "100%"
 }
 
